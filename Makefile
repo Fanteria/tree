@@ -30,7 +30,7 @@ clear:
 
 # Make zip execute
 zip:
-	zip tree.zip Makefile main.c tree.c tree.h 
+	zip tree.zip Makefile main.c tree.c tree.h
 
 # Object files compile
 main.o: main.c tree.h
