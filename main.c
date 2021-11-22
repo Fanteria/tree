@@ -82,10 +82,6 @@ void testingTerminalApp(){
                 testingTerminalPrint();
                 break;
             case 10:
-                companyTerminalPrint();
-                printf("\n");
-                break;
-            case 11:
                 printf("Exit.\n");
                 return;
                 break;
@@ -203,7 +199,6 @@ void testingTerminalPrint(){
 }
 
 void helpTerminalPrint(){
-    kpTerminalPrint();
     printf("\nOptions:\n");
     printf("\t 1.Help menu\n");
     printf("\t 2.Insert data\n");
@@ -214,45 +209,5 @@ void helpTerminalPrint(){
     printf("\t 7.Get first item\n");
     printf("\t 8.Get next item\n");
     printf("\t 9.Print fast test\n");
-    printf("\t10.Company promo\n");
-    printf("\t11.Exit\n");
-}
-
-void kpTerminalPrint(){
-    printf("  _  __         _                                      _      _    _         \n");
-    printf(" | |/ /        | |                                    (_)    | |  | |        \n");
-    printf(" | ' / ___  ___| | _______   ___   _   _ __  _ __ ___  _  ___| | _| |_ _   _ \n");
-    printf(" |  < / _ \\/ __| |/ / _ \\ \\ / / | | | | '_ \\| '__/ _ \\| |/ _ \\ |/ / __| | | |\n");
-    printf(" | . \\ (_) \\__ \\   < (_) \\ V /| |_| | | |_) | | | (_) | |  __/   <| |_| |_| |\n");
-    printf(" |_|\\_\\___/|___/_|\\_\\___/ \\_/  \\__, | | .__/|_|  \\___/| |\\___|_|\\_\\__|\\__,  |\n");
-    printf("                                __/ | | |            _/ |               __/ |\n");
-    printf("                               |___/  |_|           |__/               |___/ \n");
-    return;
-}
-
-void companyTerminalPrint(){
-    kpTerminalPrint();
-    printf("   _____          _                _                          \n");
-    printf("  / ____|        | |              | |                         \n");
-    printf(" | |     ___  ___| |_ __ _    ___ | | ___ __   ___ _ __ ___   \n");
-    printf(" | |    / _ \\/ __| __/ _` |  / _ \\| |/ / '_ \\ / _ \\ '_ ` _ \\  \n");
-    printf(" | |___|  __/\\__ \\ || (_| | | (_) |   <| | | |  __/ | | | | | \n");
-    printf("  \\_____\\___||___/\\__\\__,_|  \\___/|_|\\_\\_| |_|\\___|_| |_| |_| \n");
-    printf("\n");
-    printf(" _                        _   _      _     _                 _ _        _                      \n");
-    printf("| |                      | | | |    (_)   (_)               (_) |      | |                     \n");
-    printf("| | _____   _____   _____| |_| | ___ _ ___ _ _ __ ___    _____| |_ _ __| | ___   _ _ __ ___    \n");
-    printf("| |/ / _ \\ / __\\ \\ / / _ \\ __| |/ _ \\ / __| | '_ ` _ \\  |_  / | __| '__| |/ / | | | '_ ` _ \\   \n");
-    printf("|   <  __/ \\__ \\  V /  __/ |_| |  __/ \\__ \\ | | | | | |  / /| | |_| |  |   <| |_| | | | | | |_ \n");
-    printf("|_|\\_\\___| |___/ \\_/ \\___|\\__|_|\\___| |___/_|_| |_| |_| /___|_|\\__|_|  |_|\\_\\____ |_| |_| |_(_)\n");
-    printf("                                   _/ |                                                        \n");
-    printf("                                  |__/                                                         \n");
-    printf("\n");
-    
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    printf("\n");
-    
-    
+    printf("\t10.Exit\n");
 }
