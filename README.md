@@ -18,3 +18,7 @@ In `main.c` is example usage for this code. his function starts menu with option
 10. Exit
 
 This options show of usage of individual functions of implementation.
+
+## Compilation
+
+Compilation of this project can be done by make file.
